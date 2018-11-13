@@ -12,7 +12,7 @@ public class PUGIFLoading
     public var recentOverlay : UIView?
     public var recentOverlayTarget : UIView?
     public var recentLoadingText: String?
-    
+    public init() {}
     public func Color_RGBA(_ R: Int,_ G: Int,_ B: Int,_ A: Int) -> UIColor
     {
         return UIColor(red: CGFloat(R)/255.0, green: CGFloat(G)/255.0, blue: CGFloat(B)/255.0, alpha :CGFloat(A))

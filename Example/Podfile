@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PUGifLoading_Example' do
+  pod 'PUGifLoading', :path => '../'
+
+  target 'PUGifLoading_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

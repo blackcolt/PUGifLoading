@@ -55,7 +55,7 @@ loading.show("Loading", gifimagename: "foodloader")
 ##### Activity indicator Loader view
 
 ```
-PUImageLoaderView.showWithActivityIndicator("Loading", activitycolor: UIColor.yellow, labelfontcolor:UIColor.yellow , labelfontsize: 16.0,activityStyle: UIActivityIndicatorViewStyle.whiteLarge)
+loading.showWithActivityIndicator("Loading", activitycolor: UIColor.yellow, labelfontcolor:UIColor.yellow , labelfontsize: 16.0,activityStyle: UIActivityIndicatorViewStyle.whiteLarge)
 ```
 
 * ###### Above function take 5 parameters

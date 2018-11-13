@@ -9,34 +9,30 @@
 Pod::Spec.new do |s|
   s.name             = 'PUGifLoading'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of PUGifLoading.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = 'Clean and easy-to-use and light weight loader meant to display the progress of an ongoing task on iOS'
+  s.swift_version = "3.2"
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+									PUGifLoaderSource
+									PUGifLoader swift with source code
+									Alternative of https://github.com/PayalUmraliya/PUGifLoaderControl
+									If anybody have issue in framework import then they can use this source code instead of framework.
+									PUGifLoader is a clean and easy-to-use and light weight loader meant to display the progress of an ongoing task on iOS.
+									You can show the status of indeterminate tasks using one of the following ( GIF Or Activity indicator):
+									=== > GIF Loader view - You can use any gif image according to your need.
+									PuLoadingView.show("Loading", gifimagename: "foodloader")
+									=== > Activity indicator Loader view
+									PuLoadingView.showWithActivityIndicator("Loading", activitycolor: UIColor.yellow, labelfontcolor:UIColor.yellow , labelfontsize: 16.0,activityStyle: UIActivityIndicatorViewStyle.whiteLarge)
+									=== > Hiding the Loader
+									PuLoadingView.hide()
+									:)
+                       				DESC
 
   s.homepage         = 'https://github.com/PayalUmraliya/PUGifLoading'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'PayalUmraliya' => 'behappy78600@gmail.com' }
   s.source           = { :git => 'https://github.com/PayalUmraliya/PUGifLoading.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+ 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'PUGifLoading/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'PUGifLoading' => ['PUGifLoading/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

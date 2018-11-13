@@ -15,6 +15,7 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		66A63A8E8539B5E6AEE8B270 /* Pods_PUGifLoading_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95506FC16503C6A164813F4 /* Pods_PUGifLoading_Tests.framework */; };
 		788E6EC966EA03C3B4E18CB9 /* Pods_PUGifLoading_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7510D638775F99C5708208C6 /* Pods_PUGifLoading_Example.framework */; };
+		DF0A63C5219AC429003CB639 /* foodloader.gif in Resources */ = {isa = PBXBuildFile; fileRef = DF0A63C4219AC429003CB639 /* foodloader.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +31,7 @@
 /* Begin PBXFileReference section */
 		1E1CAAD823990B6E84A84DDA /* Pods-PUGifLoading_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PUGifLoading_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PUGifLoading_Tests/Pods-PUGifLoading_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4F5085B93340B679A125F8FB /* Pods-PUGifLoading_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PUGifLoading_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PUGifLoading_Tests/Pods-PUGifLoading_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5BED5C71FD065824BB3AD9B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5BED5C71FD065824BB3AD9B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* PUGifLoading_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PUGifLoading_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,10 +44,11 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7510D638775F99C5708208C6 /* Pods_PUGifLoading_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PUGifLoading_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A95506FC16503C6A164813F4 /* Pods_PUGifLoading_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PUGifLoading_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAF6597061A1E5851A4289AB /* PUGifLoading.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PUGifLoading.podspec; path = ../PUGifLoading.podspec; sourceTree = "<group>"; };
+		AAF6597061A1E5851A4289AB /* PUGifLoading.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PUGifLoading.podspec; path = ../PUGifLoading.podspec; sourceTree = "<group>"; };
 		BADF8D9DF0405B258424CD79 /* Pods-PUGifLoading_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PUGifLoading_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PUGifLoading_Example/Pods-PUGifLoading_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BEFCF292616D02F8956BD0E0 /* Pods-PUGifLoading_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PUGifLoading_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PUGifLoading_Example/Pods-PUGifLoading_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F00AC81F93D6B00F36302B0B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DF0A63C4219AC429003CB639 /* foodloader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = foodloader.gif; sourceTree = "<group>"; };
+		F00AC81F93D6B00F36302B0B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		607FACD21AFB9204008FA782 /* Example for PUGifLoading */ = {
 			isa = PBXGroup;
 			children = (
+				DF0A63C4219AC429003CB639 /* foodloader.gif */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -246,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				DF0A63C5219AC429003CB639 /* foodloader.gif in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -266,15 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PUGifLoading_Example/Pods-PUGifLoading_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/PUGifLoading/PUGifLoading.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PUGifLoading.framework",
 			);
@@ -288,15 +288,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-PUGifLoading_Tests-checkManifestLockResult.txt",
 			);
@@ -310,15 +306,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-PUGifLoading_Example-checkManifestLockResult.txt",
 			);

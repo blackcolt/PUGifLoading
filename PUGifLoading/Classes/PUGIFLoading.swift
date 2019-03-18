@@ -25,7 +25,7 @@ public class PUGIFLoading
     public func hide() {
         if recentOverlay != nil
         {
-            NotificationCenter.default.removeObserver(self, name: NSNotification.Name.UIDeviceOrientationDidChange,object: nil)
+            NotificationCenter.default.removeObserver(self, name: NSNotification.Name.UIDevice.orientationDidChangeNotification,object: nil)
             recentOverlay?.removeFromSuperview()
             recentOverlay =  nil
             recentLoadingText = nil
@@ -42,7 +42,7 @@ public class PUGIFLoading
         overlay.alpha = 0
         overlay.backgroundColor = UIColor.black
         overlayvw.addSubview(overlay)
-        overlayvw.bringSubview(toFront: overlay)
+        overlayvw.bringSubviewToFront(overlay)
         
         let jeremyGif = UIImage.gifImageWithName(name: gifimagename!)
         let imageView = UIImageView(image: jeremyGif)
@@ -68,7 +68,7 @@ public class PUGIFLoading
         recentOverlayTarget = overlayvw
         recentLoadingText = loadingText
     }
-    public func showWithActivityIndicator(_ loadingText:String?, activitycolor: UIColor, labelfontcolor:UIColor , labelfontsize: Int,activityStyle: UIActivityIndicatorViewStyle)
+    public func showWithActivityIndicator(_ loadingText:String?, activitycolor: UIColor, labelfontcolor:UIColor , labelfontsize: Int,activityStyle: UIActivityIndicatorView.Style)
     {
         hide()
         let overlayvw = UIApplication.shared.keyWindow!
@@ -77,7 +77,7 @@ public class PUGIFLoading
         overlay.alpha = 0
         overlay.backgroundColor = UIColor.black
         overlayvw.addSubview(overlay)
-        overlayvw.bringSubview(toFront: overlay)
+        overlayvw.bringSubviewToFront(overlay)
         
         let indicator = UIActivityIndicatorView(activityIndicatorStyle: activityStyle)
         indicator.color = activitycolor

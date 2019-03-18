@@ -25,7 +25,7 @@ public class PUGIFLoading
     public func hide() {
         if recentOverlay != nil
         {
-            NotificationCenter.default.removeObserver(self, name: NSNotification.Name.UIDevice.orientationDidChangeNotification,object: nil)
+            NotificationCenter.default.removeObserver(self, name: UIDevice.orientationDidChangeNotification, object: nil)
             recentOverlay?.removeFromSuperview()
             recentOverlay =  nil
             recentLoadingText = nil
@@ -79,7 +79,7 @@ public class PUGIFLoading
         overlayvw.addSubview(overlay)
         overlayvw.bringSubviewToFront(overlay)
         
-        let indicator = UIActivityIndicatorView(activityIndicatorStyle: activityStyle)
+        let indicator = UIActivityIndicatorView(style: activityStyle)
         indicator.color = activitycolor
         indicator.center = overlay.center
         indicator.startAnimating()

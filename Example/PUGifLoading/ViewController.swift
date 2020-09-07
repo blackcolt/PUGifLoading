@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     @IBAction func btnShowActivityClicked(_ sender: Any)
     {
                 loading.hide()
-                loading.showWithActivityIndicator("Loading", activitycolor: UIColor.yellow, labelfontcolor:UIColor.yellow , labelfontsize: 16,activityStyle: UIActivityIndicatorViewStyle.whiteLarge)
+                loading.showWithActivityIndicator("Loading", activitycolor: UIColor.yellow, labelfontcolor:UIColor.yellow , labelfontsize: 16,activityStyle: UIActivityIndicatorView.Style.whiteLarge)
                 self.autohide()
     }
     func autohide()
